@@ -2,6 +2,8 @@
 #Enunciado: Define una variable llamada numero con el valor 10 y otra llamada nombre con tu nombre.
 numero <- 10
 mi_nombre <- "Lara"
+numero
+mi_nombre
 
 #Ejercicio 2: Funciones class e is.numeric
 #Enunciado: Utiliza las funciones class e is.numeric para determinar el tipo de #dato de numero.
@@ -35,8 +37,32 @@ is.numeric(edades)
 # es mayor o igual a 18.
 
 mayor_de_edad <- edades [1] >= 18
+mayor_de_edad
 
+#Ejercicio 7: Comparaciones de Vectores
+#Enunciado: Utiliza el operador %in% para verificar si el valor 30 está presente en el vector edades .
 
+esta_30 <- 30 %in% edades
+esta_30
 
+#Ejercicio 8: Operadores de Comparación
+#Enunciado: Compara si el doble de numero es mayor que edades[3] .
 
+compara <- (2*numero) < edades[3]
+compara
 
+#Ejercicio 9: Utilizar Operador Lógico
+# Enunciado: Define dos variables lógicas, condicion1 y condicion2 , ambas con valor TRUE .
+# Comprueba si ambas condiciones son verdaderas.
+
+condicion1 <- TRUE
+condicion2 <- TRUE
+comprueba <- condicion1 & condicion2
+comprueba
+
+#Ejercicio 10: Utilizar Operador Lógico
+# Enunciado: Define una variable lógica, verdadero , con valor TRUE . Comprueba que su valor NO sea verdadero.
+
+verdadero <- TRUE
+no_verdadero <- !verdadero
+no_verdadero
